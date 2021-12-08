@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registro</title>
+	<link rel="stylesheet" type="text/css" href="hoja.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+	<div id="body">
+		<body>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 0 0;">
+				 <div class="container-fluid" style="background-color: #1d428a;">
+				    <a class="navbar-brand" href="#"><img src="img/nbalogo.png"width="100" height="50"></a>
+				    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #ffffff; color: white;">
+				      <span class="navbar-toggler-icon"></span>
+				    </button>
+					    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					        <li class="nav-item">
+					          <a href="index.html" class="nav-link active" aria-current="page" href="#" style="color: #ffffff">Home</a>
+					        </li>
+					        <li class="nav-item">
+					          <a href="historia.html" class="nav-link" href="#"style="color: #ffffff">Historia</a>
+					        </li>
+					        <li class="nav-item dropdown">
+					          <a href="Conferencias.html" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"style="color: #ffffff">
+					            Conferencias
+					          </a>
+					          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					            <li><a class="dropdown-item" href="#">ATLANTIC</a></li>
+					            <li><a class="dropdown-item" href="#">CENTRAL</a></li>
+					            <li><a class="dropdown-item" href="#">NORTHWEST</a></li>
+					            <li><a class="dropdown-item" href="#">PACIFIC</a></li>
+					            <li><a class="dropdown-item" href="#">SOUTHWEST</a></li>
+					          </ul>
+					          <li class="nav-item">
+					          <a href="posiciones.html" class="nav-link" style="color: #ffffff">Posiciones</a>
+					        </li>
+					        <li class="nav-item">
+					          <a href="contacto.html" class="nav-link" style="color: #ffffff">Contacto</a>
+					        </li>
+					        <li class="nav-item">
+					          <a href="registro.html" class="nav-link" href="#"style="color: #ffffff">Registrarme</a>
+					        </li>
+					        </li>
+					      </ul>
+					      <form class="d-flex">
+					        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+					        <button class="btn btn-outline-success" type="submit" style="background-color: white; color: #1d428a; border: white;">Buscar</button>
+					      </form>
+					    </div>
+				 </div>
+			</nav>
+<!------------------------------------------------------>
+		<div id="inscripción">
+			<form action="pagina02.html" method="get"><!--metodo post-->
+					<table border="1">
+						<tr>
+							<td>Nombre</td>
+							<td><input type="text" name="nom" maxlength="10" required autofocus></td>
+						</tr>
+						<tr>
+							<td>Apellido</td>
+							<td><input type="text" name="nom" maxlength="10" required autofocus></td>
+						</tr>
+						<tr>
+							<td>Rut</td>
+							<td><input type="text" name="rut"></td>
+						</tr>
+						<tr>
+							<td>Sexo</td>
+							<td>
+								Femenino<input type="radio" name="sexo" value="Femenino">
+								Masculino<input type="radio" name="sexo" value="Casado">
+							</td>
+						</tr>
+						<tr>
+							<td>Fecha de Nacimiento</td>
+							<td><input type="date" name="Fecha"></td>
+						</tr>
+						<tr>
+							<td>e-mail</td>
+							<td><input type="email" name="mail"></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><input type="checkbox" name=""required><p style="font-size: 10px;">Sí, agrégame a tu lista de correos. <br>Tus datos personales se utilizarán para procesar tu pedido, mejorar tu experiencia en esta web, gestionar el acceso a tu cuenta y otros propósitos descritos en nuestra política de privacidad.</p></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="submit" name="boton" value="Registrarme"></td>
+						</tr>
+					</table>
+			</form>
+		</div>	
+<!------------------------------------------------------>				
+		</body>
+	</div>
+</html>
